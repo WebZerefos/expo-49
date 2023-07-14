@@ -22,7 +22,6 @@ export default function Page() {
 
 	return (
 		<>
-			<Link href={'/AboutUs'}>About Us</Link>
 			<FlatList
 				data={apods}
 				renderItem={({ item }) => (
